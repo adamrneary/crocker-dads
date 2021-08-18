@@ -16,6 +16,11 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      fontFamily: {
+        sans: ['Lato', 'sans-serif'],
+        serif: ['Lora', 'serif'],
+      },
+
       colors: {
         gray: {
           100: '#f7fafc',
@@ -34,7 +39,7 @@ module.exports = {
           300: '#90cdf4',
           400: '#63b3ed',
           500: '#4299e1',
-          600: '#3182ce',
+          600: '#498bbd',
           700: '#2b6cb0',
           800: '#2c5282',
           900: '#2a4365',
@@ -43,5 +48,6 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  // eslint-disable-next-line global-require
+  plugins: [require('@tailwindcss/aspect-ratio')],
 };
