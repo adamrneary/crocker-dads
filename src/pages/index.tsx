@@ -1,3 +1,5 @@
+import Clubhouse from '../components/Clubhouse';
+import ClubhouseHero from '../components/ClubhouseHero';
 import Description from '../components/Desciption';
 import FAQ from '../components/FAQ';
 import Hero from '../components/Hero';
@@ -19,7 +21,9 @@ const Index = () => {
       <Stats />
       <Team />
       <Obama />
+      <Clubhouse />
       <WhatWeDo />
+      <ClubhouseHero />
       <FAQ />
     </>
   );

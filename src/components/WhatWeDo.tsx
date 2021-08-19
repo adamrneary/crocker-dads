@@ -63,7 +63,7 @@ const communicationFeatures = [
 
 export default function Example() {
   return (
-    <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
+    <div id="events" className="py-16 bg-gray-50 overflow-hidden lg:py-24">
       <div className="relative max-w-xl mx-auto px-4 sm:px-6 lg:px-8 lg:max-w-7xl">
         <svg
           className="hidden lg:block absolute left-full transform -translate-x-1/2 -translate-y-1/4"
@@ -101,7 +101,7 @@ export default function Example() {
 
         <div className="relative">
           <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-            What would you say…you do here?
+            Ok, but…what would you say…you do here?
           </h2>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-600 font-serif">
             Our job is to raise money for the school.

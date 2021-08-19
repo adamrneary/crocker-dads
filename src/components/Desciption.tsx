@@ -1,3 +1,5 @@
+import React from 'react';
+
 import {
   AnnotationIcon,
   TruckIcon,
@@ -21,7 +23,7 @@ const features = [
   {
     name: 'Mostly dads',
     description:
-      'It has not escaped us that the gendered identity of a “Dads Club” is a bit out of step with the times. Yet we persist in this silliness, and it seems fine for now.',
+      'It has not escaped us that the gendered identity of a “Dads Club” is a bit out of step with the times. Yet we persist in this silliness, knowing history may judge our organization harshly.',
     icon: TruckIcon,
   },
   {
@@ -34,7 +36,7 @@ const features = [
 
 export default function Example() {
   return (
-    <div className="pt-48 pb-24 bg-white">
+    <div id="about" className="pt-48 pb-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">

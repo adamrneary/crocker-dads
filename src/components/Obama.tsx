@@ -49,7 +49,7 @@ export default function Example() {
                   <p className="mt-6 text-2xl font-serif font-medium text-white">
                     The Crocker Dads make up the best and the brightest our
                     country has to offer. The organization is not only the
-                    country‘s pre-eminent elementary school dads club, but it is
+                    country‘s preeminent elementary school dads club, but it is
                     quite possible they are the best, most handsome, and most
                     capable dads ever collected in one place in our nation‘s
                     beautiful history.

@@ -65,15 +65,15 @@ export default function Hero() {
                     Leadership
                   </a>
 
-                  <a href="#" className="hover:text-gray-900">
-                    Features
+                  <a href="#clubhouse" className="hover:text-gray-900">
+                    Clubhouse
                   </a>
-                  <a href="#" className="hover:text-gray-900">
-                    Company
+                  <a href="#events" className="hover:text-gray-900">
+                    Events
                   </a>
 
                   <a
-                    href="#"
+                    href="https://groups.google.com/g/crocker-dads-club"
                     className="text-blue-600 font-bold hover:text-blue-500"
                   >
                     Join Us
@@ -131,21 +131,21 @@ export default function Hero() {
                   </a>
 
                   <a
-                    href="#"
+                    href="#clubhouse"
                     className="block px-3 py-2 rounded-md hover:text-gray-900 hover:bg-gray-50"
                   >
-                    Features
+                    Clubhouse
                   </a>
 
                   <a
-                    href="#"
+                    href="#events"
                     className="block px-3 py-2 rounded-md  hover:text-gray-900 hover:bg-gray-50"
                   >
-                    Company
+                    Events
                   </a>
                 </div>
                 <a
-                  href="#"
+                  href="https://groups.google.com/g/crocker-dads-club"
                   className="block w-full px-5 py-3 text-center text-blue-600 bg-gray-50 hover:bg-gray-100 font-bold"
                 >
                   Join Us
@@ -176,7 +176,7 @@ export default function Hero() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="https://groups.google.com/g/crocker-dads-club"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10"
                   >
                     Join Us
@@ -184,7 +184,7 @@ export default function Hero() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="https://groups.google.com/g/crocker-dads-club"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-bold rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10"
                   >
                     Live demo

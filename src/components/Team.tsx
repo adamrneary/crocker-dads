@@ -1,32 +1,16 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
 const people = [
   {
     name: 'Cameron Platt',
     role: 'President',
     imageUrl:
-      'https://images.unsplash.com/photo-1495638488670-437e54b3bab4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80',
-    bio: 'Cameron introduced the Crocker Dads Clubhouse, a fully furnished activities center for thirsty dads. It has been a haven for watching the game, shooting pool, staying out too late.',
+      'https://images.unsplash.com/photo-1586083702768-190ae093d34d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=790&q=80',
+    bio: 'Cameron introduced the Crocker Dads Clubhouse, a fully furnished activities center for thirsty dads. It has been a haven for watching the game, shooting pool, and staying out too late.',
   },
   {
     name: 'Adam Neary',
     role: 'President Emeritus',
     imageUrl:
-      'https://images.unsplash.com/photo-1503001358144-8d7f2c1db9f5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1475403614135-5f1aa0eb5015?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80',
     bio: 'When Adam rearchitected the service line for the Walkathon in two separate, high-velocity lines, we more than tripled our capacity. It was pure genius.',
   },
   {
@@ -61,7 +45,7 @@ const people = [
 
 export default function Example() {
   return (
-    <div className="bg-white">
+    <div id="leadership" className="bg-white">
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
           <div className="space-y-5 sm:space-y-4">
