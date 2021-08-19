@@ -36,7 +36,7 @@ const features = [
 
 export default function Example() {
   return (
-    <div id="about" className="pt-48 pb-24 bg-white">
+    <div id="about" className="pt-24 md:pt-48 pb-24 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="lg:text-center">
           <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
@@ -52,7 +52,7 @@ export default function Example() {
           </p>
         </div>
 
-        <div className="mt-24">
+        <div className="mt-24 sm:mt-12">
           <dl className="space-y-10 md:space-y-0 md:grid md:grid-cols-2 md:gap-x-8 md:gap-y-10">
             {features.map((feature) => (
               <div key={feature.name} className="relative">

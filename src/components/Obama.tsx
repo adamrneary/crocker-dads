@@ -25,7 +25,7 @@ export default function Example() {
               className="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden"
             />
             <div className="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:p-0 lg:h-full">
-              <div className="aspect-w-10 aspect-h-6 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+              <div className="aspect-h-4 aspect-w-3 rounded-xl shadow-xl overflow-hidden lg:aspect-none lg:h-full">
                 <img
                   className="object-cover lg:h-full lg:w-full"
                   src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/1200px-President_Barack_Obama.jpg"

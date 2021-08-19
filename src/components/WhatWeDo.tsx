@@ -103,7 +103,7 @@ export default function Example() {
           <h2 className="text-center text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             Ok, but…what would you say…you do here?
           </h2>
-          <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-600 font-serif">
+          <p className="mt-4 max-w-3xl mx-auto text-center md:text-xl text-gray-600 font-serif">
             Our job is to raise money for the school.
             <br />
             Or — more often — our job is to grill food while other people are
@@ -175,7 +175,7 @@ export default function Example() {
                 fill="url(#ca9667ae-9f92-4be7-abcb-9e3d727f2941)"
               />
             </svg>
-            <div className="aspect-w-10 aspect-h-4 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+            <div className="aspect-w-3 aspect-h-4 rounded-xl shadow-xl overflow-hidden lg:aspect-none lg:h-full mx-4 md:mx-0">
               <img
                 className="object-cover lg:h-full lg:w-full"
                 src="https://images.unsplash.com/photo-1525164286253-04e68b9d94c6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=490&q=80"
@@ -283,7 +283,7 @@ export default function Example() {
                   fill="url(#e80155a9-dfde-425a-b5ea-1f6fadd20131)"
                 />
               </svg>
-              <div className="aspect-w-10 aspect-h-4 rounded-xl shadow-xl overflow-hidden sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none lg:h-full">
+              <div className="aspect-w-3 aspect-h-4 rounded-xl shadow-xl overflow-hidden lg:aspect-none lg:h-full mx-4 md:mx-0">
                 <img
                   className="object-cover lg:h-full lg:w-full"
                   src="https://images.unsplash.com/photo-1617820915076-5f3163127e3d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"

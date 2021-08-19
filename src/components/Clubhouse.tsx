@@ -105,7 +105,7 @@ export default function Clubhouse() {
             <div className="flex-1" />
             <div className="flex-1 w-full bg-gray-800" />
           </div>
-          <div className="max-w-7xl mx-auto overflow-hidden aspect-w-4 aspect-h-3 rounded-lg shadow-lg">
+          <div className="max-w-7xl mx-auto overflow-hidden aspect-w-4 aspect-h-3 rounded-lg shadow-lg mx-4 md:mx-0">
             <Image
               className=""
               src="/images/Clubhouse1.jpg"

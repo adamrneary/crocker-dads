@@ -32,7 +32,7 @@ const people = [
     role: 'President Emeritus',
     imageUrl:
       'https://images.unsplash.com/photo-1514222709107-a180c68d72b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80',
-    bio: 'Jaison may never have bought the group beer, but he knew a dude who still lets us put a keg behind a car next to the school. And that forever changed the face of the organization.',
+    bio: 'Jaison was a master at procuring free kegs of delicious local brews, and he knew a dude who still lets us put a keg behind a car next to the school. This forever changed the face of the organization.',
   },
   {
     name: 'Josh Hurwitz',
