@@ -1,3 +1,6 @@
+const HERO_SRC =
+  'https://images.unsplash.com/photo-1597078889966-e375fdcd95b4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80';
+
 export default function Hero() {
   return (
     <div className="relative bg-white overflow-hidden">
@@ -54,18 +57,17 @@ export default function Hero() {
                   </div>
                 </div>
                 <div className="hidden md:block md:ml-10 md:pr-4 md:space-x-8 text-gray-600">
-                  <a href="#" className="hover:text-gray-900">
-                    Product
+                  <a href="#about" className="hover:text-gray-900">
+                    About
+                  </a>
+
+                  <a href="#leadership" className="hover:text-gray-900">
+                    Leadership
                   </a>
 
                   <a href="#" className="hover:text-gray-900">
                     Features
                   </a>
-
-                  <a href="#" className="hover:text-gray-900">
-                    Marketplace
-                  </a>
-
                   <a href="#" className="hover:text-gray-900">
                     Company
                   </a>
@@ -115,10 +117,17 @@ export default function Hero() {
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-1 font-bold text-gray-700 hover:text-gray-900">
                   <a
-                    href="#"
+                    href="#about"
                     className="block px-3 py-2 rounded-md hover:bg-gray-50"
                   >
-                    Product
+                    About
+                  </a>
+
+                  <a
+                    href="#leadership"
+                    className="block px-3 py-2 rounded-md  hover:bg-gray-50"
+                  >
+                    Leadership
                   </a>
 
                   <a
@@ -126,13 +135,6 @@ export default function Hero() {
                     className="block px-3 py-2 rounded-md hover:text-gray-900 hover:bg-gray-50"
                   >
                     Features
-                  </a>
-
-                  <a
-                    href="#"
-                    className="block px-3 py-2 rounded-md  hover:bg-gray-50"
-                  >
-                    Marketplace
                   </a>
 
                   <a
@@ -196,7 +198,7 @@ export default function Hero() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <img
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="https://images.unsplash.com/photo-1621331938577-42f137e5d5f1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80"
+          src={HERO_SRC}
           alt=""
         />
       </div>

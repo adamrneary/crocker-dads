@@ -71,7 +71,7 @@ export default function Example() {
             <p className="text-lg text-gray-600 font-serif">
               The Presidents of the Dads Club represent a long line of
               leadership excellence, each leaving the Dads Club in narrowly
-              better shape than they found it. Evolcing from napkins with
+              better shape than they found it. Evolving from napkins with
               instructions to Google Docs to a fully function clubhouse and a
               world class marketing website, they are the standard bearers for
               Dads Clubs globally.
