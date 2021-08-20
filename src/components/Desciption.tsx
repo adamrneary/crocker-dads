@@ -11,13 +11,13 @@ const features = [
   {
     name: 'Beer is generally available',
     description:
-      'Plenty of folks in the Crocker Dads community do not drink, but for historical reasons we continue to taut the ready availability of beer at all Crocker Dads functions.',
+      'Plenty of folks in the Crocker Dads community do not drink, but for historical reasons we continue to tout the ready availability of beer at all Crocker Dads functions.',
     icon: LightningBoltIcon,
   },
   {
     name: 'No hidden fees',
     description:
-      'There are actually no fees whatsoever. We are all just here to raise funds for Crocker Highlands Elementary.',
+      'There are actually no fees whatsoever. We are all just here to raise funds for Crocker Highlands Elementary. Or, I guess it is for the PTA, which is for Crocker. And also the A-to-Z fund. Definitely raising funds of many types.',
     icon: ScaleIcon,
   },
   {

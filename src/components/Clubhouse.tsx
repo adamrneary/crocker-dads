@@ -85,16 +85,11 @@ export default function Clubhouse() {
                 </div>
               </h1>
               <p className="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl font-serif">
-                Cameron may refer to this location as “Abio Properties” during
-                the day,
-                <br /> and sure it is his real estate agency, “Abio Properties,”
-                that pays for the space.
-                <br />
-                But any Crocker Dad knows that <strong>4200 Broadway</strong> is
-                straight up Dad Zone.
-                <hr className="my-4 border border-gray-300 w-1/5 mx-auto " />
-                As Athenian Historian and fifth-century BCE Crocker Dads
-                President Thucydides once wrote, “Real Estate, Schmeal Estate.”
+                While this may be our current President‘s real estate brokerage
+                during the day, any Crocker Dad worth his grilling tongs knows
+                that Abio Properties is straight up Dad Zone at night. Think of
+                it as a secret lair for the next generation of
+                Crocker&nbsp;Super-Dads.
               </p>
             </div>
           </div>
